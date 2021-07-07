@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
       GES SYLLABUS
     </ion-title>
@@ -7,8 +7,14 @@
 </ion-header>
 
 <ion-content padding>
+	
   <h2>Select School Category</h2>
-  <button ion-button full>BASIC SCHOOL</button>
-  <button ion-button full>SENIOR HIGH SCHOOL</button>
-  <button ion-button full>TECH/VOC SCHOOL</button>
+  
+
+  <button ion-button full (click)="BASIC_SCHOOL()">BASIC SCHOOL</button>
+
+  <button ion-button full (click)="SENIOR_HIGH_SCHOOL()">SENIOR HIGH SCHOOL</button>
+
+  <button ion-button full (click)="TECH/VOC_SCHOOL()">TECH/VOC SCHOOL</button>
+  
 </ion-content>
